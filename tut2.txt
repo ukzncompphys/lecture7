@@ -1,0 +1,5 @@
+If the grid resolution goes up by a factor of 10, then the CFL
+stability condition means that, at constant velocity, the step size in
+time must decrease by a factor of 10.  To get to the same total time,
+we have to take 10 times as many steps over 10 times as many grid
+cells, for a total of 100 times more work.
